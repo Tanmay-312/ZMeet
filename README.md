@@ -5,7 +5,7 @@ ZMeet is a cutting-edge online meeting website designed for seamless collaborati
 ## Features
 
 - **User Authentication**: Secure login and registration with Clerk.
-- **Real-Time Chat**: Integrated chat functionality using Stream-io.
+- **Real-Time Video call**: Integrated video functionality using Stream-io.
 - **Accessible Components**: Built with Radix UI for accessibility.
 - **Responsive Design**: Styled with Tailwind CSS and Shadcn UI for a clean, modern interface.
 - **Robust and Scalable**: Developed with TypeScript for reliability and scalability.

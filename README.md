@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ZMeet
 
-## Getting Started
+ZMeet is a cutting-edge online meeting website designed for seamless collaboration and communication. Built with the latest technologies, ZMeet provides an intuitive and efficient platform for virtual meetings, whether for business, education, or casual catch-ups.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User Authentication**: Secure login and registration with Clerk.
+- **Real-Time Chat**: Integrated chat functionality using Stream-io.
+- **Accessible Components**: Built with Radix UI for accessibility.
+- **Responsive Design**: Styled with Tailwind CSS and Shadcn UI for a clean, modern interface.
+- **Robust and Scalable**: Developed with TypeScript for reliability and scalability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://reactjs.org/)
+- [Clerk](https://clerk.dev/)
+- [Stream-io](https://getstream.io/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://shadcn.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Tanmay-312/ZMeet.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd ZMeet
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+4. Create a `.env` file and add your environment variables.
 
-To learn more about Next.js, take a look at the following resources:
+5. Run the development server:
+    ```sh
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Open your browser and visit `http://localhost:3000` to see the application in action.
